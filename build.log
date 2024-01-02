@@ -1,0 +1,209 @@
+Building Intel Extension for PyTorch. Version: 2.1.100+git8f599de
+running bdist_wheel
+running build
+running build_py
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/launcher.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/_version.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/_init_on_device.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/_meta_registrations.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/frontend.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/__init__.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/_inductor/dynamo_backends.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/_inductor
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/_inductor/decomposition.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/_inductor
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/_inductor/overrides.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/_inductor
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/_inductor/compile_fx.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/_inductor
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/_inductor/compiler.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/_inductor
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/_inductor/ipex_fusion.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/_inductor
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/_inductor/lowering.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/_inductor
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/_inductor/ir.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/_inductor
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/_inductor/codegen/cpp.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/_inductor/codegen
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/transformers/optimize.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/transformers
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/transformers/__init__.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/transformers
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/transformers/generation/greedy_search.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/transformers/generation
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/transformers/generation/utils.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/transformers/generation
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/transformers/generation/beam_search.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/transformers/generation
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/transformers/generation/__init__.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/transformers/generation
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/transformers/models/reference/models.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/transformers/models/reference
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/transformers/models/reference/modules/attentions.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/transformers/models/reference/modules
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/transformers/models/reference/modules/decoder.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/transformers/models/reference/modules
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/transformers/models/reference/fusions/mha_fusion.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/transformers/models/reference/fusions
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/transformers/models/reference/fusions/linear_fusion.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/transformers/models/reference/fusions
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/transformers/models/cpu/modules/attentions.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/transformers/models/cpu/modules
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/transformers/models/cpu/modules/decoder.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/transformers/models/cpu/modules
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/transformers/models/cpu/fusions/mha_fusion.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/transformers/models/cpu/fusions
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/transformers/models/cpu/fusions/linear_fusion.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/transformers/models/cpu/fusions
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/jit/_trace.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/jit
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/jit/__init__.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/jit
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/optim/_functional.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/optim
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/optim/_lars.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/optim
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/optim/_optimizer_utils.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/optim
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/optim/_lamb.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/optim
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/optim/__init__.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/optim
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/utils/channels_last_1d.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/utils
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/utils/weight_only_quantization.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/utils
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/fx/concat_linear.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/fx
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/fx/__init__.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/fx
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/xpu/cpp_extension.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/xpu
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/xpu/overrides.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/xpu
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/xpu/utils.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/xpu
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/xpu/launch.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/xpu
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/xpu/_proxy_module.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/xpu
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/xpu/streams.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/xpu
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/xpu/single_card.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/xpu
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/xpu/lazy_init.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/xpu
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/xpu/memory.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/xpu
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/xpu/generator.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/xpu
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/xpu/__init__.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/xpu
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/xpu/random.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/xpu
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/xpu/intrinsic/__init__.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/xpu/intrinsic
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/xpu/intrinsic/modules/intrinsic.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/xpu/intrinsic/modules
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/xpu/intrinsic/modules/__init__.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/xpu/intrinsic/modules
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/xpu/amp/autocast_mode.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/xpu/amp
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/xpu/amp/__init__.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/xpu/amp
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/quantization/_qconfig.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/quantization
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/quantization/_quantize_utils.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/quantization
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/quantization/_recipe.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/quantization
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/quantization/_utils.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/quantization
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/quantization/_quantization_state_utils.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/quantization
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/quantization/_smooth_quant.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/quantization
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/quantization/_quantization_state.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/quantization
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/quantization/_module_swap_utils.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/quantization
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/quantization/_quantize.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/quantization
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/quantization/_autotune.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/quantization
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/quantization/__init__.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/quantization
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/cpu/_auto_kernel_selection.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/cpu
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/cpu/graph_capture.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/cpu
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/cpu/auto_ipex.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/cpu
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/cpu/onednn_fusion.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/cpu
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/cpu/__init__.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/cpu
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/cpu/launch/launcher_base.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/cpu/launch
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/cpu/launch/cpu_info.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/cpu/launch
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/cpu/launch/launch.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/cpu/launch
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/cpu/launch/launcher_distributed.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/cpu/launch
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/cpu/launch/__main__.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/cpu/launch
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/cpu/launch/launcher_multi_instances.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/cpu/launch
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/cpu/launch/__init__.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/cpu/launch
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/cpu/utils/_custom_fx_tracer.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/cpu/utils
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/cpu/utils/linear_bn_folding.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/cpu/utils
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/cpu/utils/_cpu_isa.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/cpu/utils
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/cpu/utils/verbose.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/cpu/utils
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/cpu/utils/__init__.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/cpu/utils
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/cpu/hypertune/objective.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/cpu/hypertune
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/cpu/hypertune/__main__.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/cpu/hypertune
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/cpu/hypertune/__init__.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/cpu/hypertune
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/cpu/hypertune/conf/dotdict.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/cpu/hypertune/conf
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/cpu/hypertune/conf/config.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/cpu/hypertune/conf
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/cpu/hypertune/conf/__init__.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/cpu/hypertune/conf
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/cpu/hypertune/strategy/strategy.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/cpu/hypertune/strategy
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/cpu/hypertune/strategy/grid.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/cpu/hypertune/strategy
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/cpu/hypertune/strategy/__init__.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/cpu/hypertune/strategy
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/cpu/hypertune/strategy/random.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/cpu/hypertune/strategy
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/cpu/hypertune/example/resnet50.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/cpu/hypertune/example
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/cpu/runtime/cpupool.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/cpu/runtime
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/cpu/runtime/multi_stream.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/cpu/runtime
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/cpu/runtime/runtime_utils.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/cpu/runtime
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/cpu/runtime/__init__.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/cpu/runtime
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/cpu/runtime/task.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/cpu/runtime
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/cpu/nn/_roi_align.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/cpu/nn
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/cpu/nn/interaction.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/cpu/nn
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/cpu/nn/frozen_batch_norm.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/cpu/nn
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/cpu/nn/_embeddingbag.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/cpu/nn
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/cpu/nn/_roi_align_helper.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/cpu/nn
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/cpu/nn/linear_fuse_eltwise.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/cpu/nn
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/cpu/tpp/fused_bert.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/cpu/tpp
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/cpu/tpp/optim.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/cpu/tpp
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/cpu/tpp/__init__.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/cpu/tpp
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/cpu/tpp/utils/blocked_layout.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/cpu/tpp/utils
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/cpu/tpp/utils/__init__.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/cpu/tpp/utils
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/cpu/autocast/_grad_scaler.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/cpu/autocast
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/cpu/autocast/_autocast_mode.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/cpu/autocast
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/cpu/autocast/__init__.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/cpu/autocast
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/nn/__init__.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/nn
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/nn/modules/merged_embeddingbag.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/nn/modules
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/nn/modules/weight_only_quantization.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/nn/modules
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/nn/modules/__init__.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/nn/modules
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/nn/functional/_tensor_method.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/nn/functional
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/nn/functional/__init__.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/nn/functional
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/nn/utils/_lstm_convert.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/nn/utils
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/nn/utils/_weight_cast.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/nn/utils
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/nn/utils/_weight_prepack.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/nn/utils
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/nn/utils/_model_convert.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/nn/utils
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/nn/utils/_parameter_wrapper.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/nn/utils
+copying /home/ubuntu/intel-extension-for-pytorch/intel_extension_for_pytorch/nn/utils/__init__.py -> /home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch/nn/utils
+running build_ext
+running build_clib
+/home/ubuntu/intel-extension-for-pytorch/setup.py:236: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  return LooseVersion(line.strip().split(" ")[2])
+/home/ubuntu/intel-extension-for-pytorch/setup.py:242: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  _cmake_min_version = LooseVersion("3.13.0")
+-- The C compiler identification is GNU 12.3.0
+-- The CXX compiler identification is GNU 12.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/ubuntu/miniconda3/bin/gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/ubuntu/miniconda3/bin/g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Error at CMakeLists.txt:34 (find_package):
+  Could not find a configuration file for package "Torch" that is compatible
+  with requested version "2.1.2".
+
+  The following configuration files were considered but not accepted:
+
+    /home/ubuntu/miniconda3/lib/python3.11/site-packages/torch/share/cmake/Torch/TorchConfig.cmake, version: 2.1.1
+
+
+
+-- Configuring incomplete, errors occurred!
+Traceback (most recent call last):
+  File "/home/ubuntu/intel-extension-for-pytorch/setup.py", line 1167, in <module>
+    setup(
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/setuptools/__init__.py", line 103, in setup
+    return distutils.core.setup(**attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/setuptools/_distutils/core.py", line 185, in setup
+    return run_commands(dist)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/setuptools/_distutils/core.py", line 201, in run_commands
+    dist.run_commands()
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/setuptools/_distutils/dist.py", line 969, in run_commands
+    self.run_command(cmd)
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/setuptools/dist.py", line 989, in run_command
+    super().run_command(command)
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/setuptools/_distutils/dist.py", line 988, in run_command
+    cmd_obj.run()
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/wheel/bdist_wheel.py", line 364, in run
+    self.run_command("build")
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/setuptools/_distutils/cmd.py", line 318, in run_command
+    self.distribution.run_command(command)
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/setuptools/dist.py", line 989, in run_command
+    super().run_command(command)
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/setuptools/_distutils/dist.py", line 988, in run_command
+    cmd_obj.run()
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/setuptools/_distutils/command/build.py", line 131, in run
+    self.run_command(cmd_name)
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/setuptools/_distutils/cmd.py", line 318, in run_command
+    self.distribution.run_command(command)
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/setuptools/dist.py", line 989, in run_command
+    super().run_command(command)
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/setuptools/_distutils/dist.py", line 988, in run_command
+    cmd_obj.run()
+  File "/home/ubuntu/intel-extension-for-pytorch/setup.py", line 1136, in run
+    self.run_command("build_clib")
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/setuptools/_distutils/cmd.py", line 318, in run_command
+    self.distribution.run_command(command)
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/setuptools/dist.py", line 989, in run_command
+    super().run_command(command)
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/setuptools/_distutils/dist.py", line 988, in run_command
+    cmd_obj.run()
+  File "/home/ubuntu/intel-extension-for-pytorch/setup.py", line 758, in run
+    _gen_build_cfg_from_cmake(
+  File "/home/ubuntu/intel-extension-for-pytorch/setup.py", line 593, in _gen_build_cfg_from_cmake
+    check_call(
+  File "/home/ubuntu/miniconda3/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['cmake', '/home/ubuntu/intel-extension-for-pytorch', '-DBUILD_MODULE_TYPE=CPU', '-DBUILD_WITH_XPU=OFF', '-DCMAKE_BUILD_TYPE=Release', '-DCMAKE_INSTALL_LIBDIR=lib', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/intel-extension-for-pytorch/build/Release/packages/intel_extension_for_pytorch', '-DCMAKE_PREFIX_PATH=/home/ubuntu/miniconda3/lib/python3.11/site-packages/torch/share/cmake', '-DCMAKE_PROJECT_VERSION=2.1.100', '-DIPEX_PROJ_NAME=intel_extension_for_pytorch', '-DLIBIPEX_GITREV=8f599de26', '-DLIBIPEX_VERSION=2.1.100+git8f599de', '-DPYTHON_EXECUTABLE=/home/ubuntu/miniconda3/bin/python', '-DPYTHON_INCLUDE_DIR=/home/ubuntu/miniconda3/include/python3.11', '-DPYTHON_PLATFORM_INFO=Linux-6.2.0-1017-aws-x86_64-with-glibc2.35']' returned non-zero exit status 1.
