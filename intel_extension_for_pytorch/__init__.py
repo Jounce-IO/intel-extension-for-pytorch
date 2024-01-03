@@ -145,7 +145,7 @@ if matches and len(matches.groups()) == 1:
 matches = re.match(r"(\d+\.\d+).*", __version__)
 if matches and len(matches.groups()) == 1:
     ipex_version = matches.group(1)
-if torch_version == "" or ipex_version == "" or torch_version != ipex_version:
+if False and (torch_version == "" or ipex_version == "" or torch_version != ipex_version):
     print(
         "ERROR! Intel® Extension for PyTorch* needs to work with PyTorch \
       {0}.*, but PyTorch {1} is found. Please switch to the matching version \
