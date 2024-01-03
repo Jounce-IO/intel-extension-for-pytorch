@@ -53,7 +53,7 @@ void mkl_sgemm_base_kernel_impl(
       dim == 2 ? self_ : self_.reshape({-1, self.size(self.dim() - 1)});
   auto M = self_reshaped.size(0);
   auto K = self_reshaped.size(1);
-
+  printf("N-%d M-%d K-%d ", N, M, K);
   auto in_ptr = self_.data_ptr<float>();
   auto weight_ptr = weight.data_ptr<float>();
   auto out_ptr = output.data_ptr<float>();

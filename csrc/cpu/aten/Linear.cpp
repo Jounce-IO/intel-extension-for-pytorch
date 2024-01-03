@@ -55,7 +55,7 @@ void linear_kernel_output(
     output_ = output_.reshape(output_size_reshaped);
   }
   ideep::tensor mkldnn_output = itensor_view_from_dense(output_);
-
+  printf("hello world");
   if (bias.defined()) {
     auto bias_ = self.is_contiguous() ? bias : bias.contiguous();
     const ideep::tensor mkldnn_bias = itensor_view_from_dense(bias_);
@@ -129,6 +129,7 @@ std::tuple<at::Tensor, at::Tensor, at::Tensor> linear_backward_kernel(
       ? grad_output_contiguous.reshape(
             {-1, grad_output_contiguous.size(grad_output_contiguous.dim() - 1)})
       : grad_output_contiguous;
+  printf("linear_backward_kernel");
   const ideep::tensor grady = itensor_view_from_dense(grad_output_reshaped);
   if (output_mask[0]) {
     at::Tensor grad_input_reshaped = at::empty_like(input_reshaped);

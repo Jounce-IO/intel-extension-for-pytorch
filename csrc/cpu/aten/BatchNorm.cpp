@@ -20,7 +20,7 @@ std::tuple<at::Tensor, at::Tensor, at::Tensor> batch_norm_forward(
       c10::value_or_else(running_mean_opt, [] { return at::Tensor(); });
   const at::Tensor& running_var =
       c10::value_or_else(running_var_opt, [] { return at::Tensor(); });
-
+  printf("batch_norm_forward");
   ideep::tensor x = itensor_view_from_dense(input);
   ideep::tensor w = itensor_view_from_dense(weight);
   ideep::tensor b = itensor_view_from_dense(bias);

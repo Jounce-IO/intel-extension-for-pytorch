@@ -45,6 +45,7 @@ at::Tensor mkl_sgemm_kernel(
   std::vector<int64_t> output_size(input_size.begin(), input_size.end() - 1);
   output_size.push_back(ori_weight.size(0));
   auto output = at::empty(output_size, self.options());
+  printf("mkl_sgemm_kernel\n");
   output.set_requires_grad(self.requires_grad());
   mkl_sgemm_kernel_output(self, ori_weight, bias, output);
   return output;
@@ -68,6 +69,7 @@ at::Tensor mkl_prepack_sgemm_kernel(
   auto input_size = self.sizes();
   std::vector<int64_t> output_size(input_size.begin(), input_size.end() - 1);
   output_size.push_back(out_features);
+  printf("mkl_prepack_sgemm_kernel\n");
   auto output = at::empty(output_size, self.options());
   output.set_requires_grad(self.requires_grad());
   mkl_prepack_sgemm_kernel_output(self, mkl_weight, bias, out_features, output);
